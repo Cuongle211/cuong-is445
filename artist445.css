@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+
+body {
+	background-image:url('http://www.csulb.edu/~cle/demo/paper.gif');
+	width: 800px;
+    margin: 5px auto;
+    /* center */
+    text-align: center;
+	}
+table
+{
+padding-left: 1.5cm;
+}
+
+hr
+{
+    width: 45%;
+    color: #3c6c1f;
+}
+
+.profileimage
+{
+    padding-top: 0.5cm;
+    height: 262px;
+    width: 240px;
+    text-align: center;
+}
+
+.stargreen
+{
+    list-style-image: url('http://www.csulb.edu/~cle/demo/star_green.png');
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.starblue
+{
+    list-style-image: url('http://www.csulb.edu/~cle/demo/star_blue.png');
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.arrow
+{
+    list-style-image: url('http://www.csulb.edu/~cle/demo/arrow_bullet.gif');
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+dd
+{
+    font-family: 'Bad Script', cursive;
+    font-size: 18px;
+    color: #371470;
+    font-weight: bold;
+    text-align: left;
+}
+
+td
+{
+    font-family: 'Satisfy', serif;
+    font-size: 32px;
+    color: #371470;
+    text-shadow: 1px 1px 1px #0094ff;
+    text-align: left;
+}
+
+.profileTitle
+{
+    font-family: 'Satisfy', serif;
+    font-size: 40px;
+    color: #665D5F;
+    text-align: left;
+    text-shadow: 1px 1px 1px #ff00dc;
+}
+
+a
+{
+    color: #666666;
+    font-family: 'Bad Script', cursive;
+    font-style: normal;
+}
+
+.welcome
+{
+    color: #666666;
+    font-size: 22px;
+    font-family: 'Englebert', sans-serif;
+}
+
+.qrcode
+{
+    text-align: right;
+    height: 80px;
+    width: 80px;
+}
+
+
+	
