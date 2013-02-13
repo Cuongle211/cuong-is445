@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Satisfy);
-@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=font-effect-distressed-wood);
+@import url(http://fonts.googleapis.com/css?family=Overlock+SC);
 @import url(http://fonts.googleapis.com/css?family=Englebert);
 
 body {
@@ -31,7 +31,7 @@ hr
 .stargreen
 {
     list-style-image: url('http://www.csulb.edu/~cle/demo/star_green.png');
-    font-family: 'Bad Script', cursive;
+    font-family: 'Overlock SC', cursive;
     font-weight: bold;
     font-size: 18px;
     text-shadow: 1px 1px 1px #cbd0d3;
@@ -40,7 +40,7 @@ hr
 .starblue
 {
     list-style-image: url('http://www.csulb.edu/~cle/demo/star_blue.png');
-    font-family: 'Bad Script', cursive;
+    font-family: 'Overlock SC', cursive;
     font-weight: bold;
     font-size: 18px;
     text-shadow: 1px 1px 1px #cbd0d3;
@@ -57,7 +57,7 @@ hr
 
 dd
 {
-    font-family: 'Bad Script', cursive;
+    font-family: 'Overlock SC', cursive;
     font-size: 18px;
     color: #371470;
     font-weight: bold;
@@ -66,7 +66,7 @@ dd
 
 td
 {
-    font-family: 'Satisfy', serif;
+    font-family: 'Overlock SC', cursive;
     font-size: 32px;
     color: #371470;
     text-shadow: 1px 1px 1px #0094ff;
@@ -75,7 +75,7 @@ td
 
 .profileTitle
 {
-    font-family: 'Satisfy', serif;
+    font-family: 'font-effect-distressed-wood', serif;
     font-size: 40px;
     color: #665D5F;
     text-align: left;
@@ -85,7 +85,7 @@ td
 a
 {
     color: #666666;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Overlock SC', cursive;
     font-style: normal;
 }
 
