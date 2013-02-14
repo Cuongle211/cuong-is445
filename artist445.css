@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=font-effect-distressed-wood);
 @import url(http://fonts.googleapis.com/css?family=Overlock+SC);
-@import url(http://fonts.googleapis.com/css?family=Englebert);
+@import url(http://fonts.googleapis.com/css?family=Quintessential);
 
 body {
 	background-image:url('http://www.csulb.edu/~cle/demo/paper.gif');
@@ -16,8 +16,8 @@ padding-left: 1.5cm;
 
 hr
 {
-    width: 45%;
-    color: #3c6c1f;
+    width: 70%;
+    color: #caff70;
 }
 
 .profileimage
@@ -77,9 +77,9 @@ td
 {
     font-family: 'font-effect-distressed-wood', serif;
     font-size: 40px;
-    color: #665D5F;
+    color: #1874cd;
     text-align: left;
-    text-shadow: 1px 1px 1px #ff00dc;
+    text-shadow: 1px 1px 1px #76ee00;
 }
 
 a
@@ -91,9 +91,9 @@ a
 
 .welcome
 {
-    color: #666666;
-    font-size: 22px;
-    font-family: 'Englebert', sans-serif;
+    color: #800080;
+    font-size: 27px;
+    font-family:  'Quintessential', cursive;
 }
 
 .qrcode
