@@ -21,8 +21,7 @@ hr
 }
 
 .profileimage
-{
-    padding-top: 0.5cm;
+{ <img style="max-width:95%;border:6px inset #545565;" src="http://www.quackit.com/pix/milford_sound/milford_sound_t.jpg" alt="Milford Sound in New Zealand" />padding-top: 0.5cm;
     height: 262px;
     width: 240px;
     text-align: center;
