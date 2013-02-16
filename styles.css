@@ -31,7 +31,7 @@ body {padding: 40px;
 		inset #88e2f7 0 0 0 17px,
 		inset #c5f4ff 0 0 0 22px,
 		inset #bfecf7 0 0 0 23px;
-	background-image:url('black.jpg');
+	background-image:url('grey.jpg');
 	width: 800px;
     margin: 5px auto;
     /* center */
@@ -123,12 +123,7 @@ a
     font-family:  'Quintessential', cursive;
 }
 
-.qrcode
-{
-    text-align: right;
-    height: 80px;
-    width: 80px;
-}
+
 
 
 	
