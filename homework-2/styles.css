@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=font-effect-distressed-wood);
+@import url(http://fonts.googleapis.com/css?family=Overlock+SC);
+@import url(http://fonts.googleapis.com/css?family=Quintessential);
+
+body {padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	background-image:url('grey.jpg');
+	width: 800px;
+    margin: 5px auto;
+    /* center */
+    text-align: center;
+	}
+table
+{
+padding-left: 1.5cm;
+}
+
+hr
+{   height: 4px;
+    width: 70%;
+    color: #caff70;
+}
+
+.profileimage
+{ <img style="max-width:95%;border:6px inset #545565;" src="http://www.quackit.com/pix/milford_sound/milford_sound_t.jpg" alt="Milford Sound in New Zealand" />padding-top: 0.5cm;
+    height: 262px;
+    width: 240px;
+    text-align: center;
+}
+
+.stargreen
+{
+    list-style-image: url('star_green.png');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.starblue
+{
+    list-style-image: url('star_blue.png');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.arrow
+{
+    list-style-image: url('arrow_bullet.gif');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+dd
+{
+    font-family: 'Overlock SC', cursive;
+    font-size: 18px;
+    color: #371470;
+    font-weight: bold;
+    text-align: left;
+}
+
+td
+{
+    font-family: 'Overlock SC', cursive;
+    font-size: 32px;
+    color: #371470;
+    text-shadow: 1px 1px 1px #0094ff;
+    text-align: left;
+}
+
+.profileTitle
+{
+    font-family: 'font-effect-distressed-wood', serif;
+    font-size: 40px;
+    color: #1874cd;
+    text-align: left;
+    text-shadow: 1px 1px 1px #76ee00;
+}
+
+a
+{
+    color: #666666;
+    font-family: 'Overlock SC', cursive;
+    font-style: normal;
+}
+
+.welcome
+{
+    color: #800080;
+    font-size: 27px;
+    font-family:  'Quintessential', cursive;
+}
+
+
+
+
+	
