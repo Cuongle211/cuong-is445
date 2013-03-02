@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Include jQuery, jQuery UI and Modernizr -->
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.4.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.ui/1.8.5/jquery-ui.js"></script>
+<script src="http://cachedcommons.org/cache/modernizr/1.5.0/javascripts/modernizr.js"></script>
+
+<link href="http://ajax.microsoft.com/ajax/jquery.ui/1.8.5/themes/redmond/jquery-ui.css"
+    rel="stylesheet" type="text/css" />
+    <title>Reservation</title>
+    <meta name="description" content="Cuong Le Profile: a senior student at CSULB, MIS Major" />
+        <link rel="stylesheet" type="text/css" href="hw3styles.css" />	
+		<link rel="icon" type="image/png"  href="favicon.png" />
+   
+</head>
+<body>
+<article> 
+<header>
+<h1 > Le, Cuong -Homework 3</h1>
+            <hr />
+<div class="style1">
+            <div class="style2">
+            <nav>
+                <a href="index.html" class="styleforlink">Home</a>
+                <a href="Reservation.htm" class="styleforlink">Reservation</a> 
+                <a href="about.html" class="styleforlink">About Me</a>
+            </nav>
+            </header>
+            </div>
+            <h1>Welcome to my Web Form</h1>
+            <p class="style2">&nbsp;</p>
+            <h3 style="text-align: left"><em>A Demo Form for Hotel Room Reservation</em></h3>
+<form>
+            <fieldset>
+                <legend class="style6"><strong>Customer Information:</strong></legend>
+                <div class="style1">
+                    <span class="style6">
+                <label for="fullName">Full name:</label></span>
+                <input type="text" id="fullName" name="fullName" placeholder="Firstname Lastname" 
+                        autofocus class="style6" /><br class="style6" />
+                    <span class="style6">
+                <label for="email">Email address:</label></span>
+                <input type="email" id="email" name="email" class="style6" /><br class="style6" />
+                    <span class="style6">
+                <label for="phoneNumber">Phone:</label></span>
+                <input type="tel" id="phoneNumber" name="phoneNumber" 
+                        pattern='\d{3}[\-]\d{3}[\-]\d{4}' title='in U.S. Format. Ex: 123-456-7890' 
+                        class="style6"/><br class="style6" />
+                    <br class="style6" />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="style6"><strong>Room Information</strong>:</legend>
+                <div class="style1">
+                <span class="style6">
+                <label for="arrivalDate">Arrival date </label>
+                </span>: <input type=date style="font-family: Aharoni" />
+
+<script>
+    $(function () {
+        // Check if the browser supports the date input type
+        if (!Modernizr.inputtypes.date) {
+            // Add the jQuery UI DatePicker to all
+            // input tags that have their type attributes
+            // set to 'date'
+            $('input[type=date]').datepicker({
+                // specify the same format as the spec
+                dateFormat: 'yy-mm-dd'
+            });
+        }
+    });
+    function arrivalTime_onclick() {
+
+    }
+
+</script>
+<br />
+                <br class="style6" />
+                <span class="style6">
+                <label for="arrivalTime">Arrival time:</label></span>
+                <input type="time" id="arrivalTime" name="arrivalTime" required="required" 
+                    class="style6" onclick="return arrivalTime_onclick()" /><br />
+                <br class="style6" />
+                <span class="style6">
+                <label for="roomType">Select Room Type:</label></span>
+                <select id="roomType" class="style6">
+                    <option>Luxury</option>
+                    <option>Standard</option>
+                    <option>Economic</option>
+                </select>
+                <br />
+                <br class="style6" />
+                <span class="style6">
+                <label for="nightNumber">Number of Nights (valid number is 1 to 30):</label></span>
+                <input type="number" id="nightNumber" name="nightNumber" min="1" max="30" 
+                    value="1" class="style6" /><br />
+                <br class="style6" />
+                <span class="style6">
+                <label for="GuestNumber">Number of Guests (the maximum guests is 3):</label></span>
+                <input type="number" id="GuestNumber" name="GuestNumber" min="1" max="3" 
+                    value="0" class="style6" />
+                <br class="style6" />
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="style6"><strong>Other Information:</strong></legend>
+                <div class="style1">
+                    <span class="style6">
+                <label for="promotionCode">Promo Code:</label></span>
+                <input type="text" size="6" maxlength="4" id="promotionCode" name="promotionCode" 
+                        pattern="[a-zA-Z0-9]{4}" 
+                        title="Please enter a promotion code " 
+                        class="style6" /><br class="style6" />
+                <label for="notes">
+                    <br class="style6" />
+                    <span class="style6">Special note:</span></label>
+                    <br class="style6" />
+                <textarea id="notes" name="notes" rows="5" cols="40" placeholder="Please Enter your  notes here" class="style6"> </textarea>
+                    <br />
+                </div>
+   
+    
+            </fieldset>
+            <br />
+            <br />
+            <input type="reset" value="Clear Form" onclick="getfocus()" />
+            <input type="submit" value="Request Reservation" />
+        </form>
+        <p></p>
+
+</div>
+
+<footer>
+ <hr class="bottomLine" />
+    <address>
+                <span class="copy">Cuong Le &copy Information</span>
+                <span class="stlye 9">Email: <a href="mailto:cuongle211@yahoo.com">cuongle211@yahoo.com</a> </span>
+                <span class="phone">Phone: (714)675 0302</span>
+            </address></address>
+</footer>
+</article>
+</body>
+</html>
