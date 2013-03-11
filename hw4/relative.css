@@ -1,0 +1,13 @@
+﻿body
+{
+}
+aside
+    {
+    left:800px;
+    top:-350px;
+    position:relative;
+    }
+footer {
+    position: relative;
+    top: -350px;
+}

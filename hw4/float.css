@@ -1,0 +1,14 @@
+﻿body
+{
+
+}
+article {
+    float: left;
+}
+aside 
+    {
+    float: right;
+    }
+Footer {
+    clear: both;
+}

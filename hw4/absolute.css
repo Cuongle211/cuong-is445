@@ -1,0 +1,11 @@
+﻿body
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+aside {
+    position: absolute;
+    left: 800px;
+    top: 62px;
+}
