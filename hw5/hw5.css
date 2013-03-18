@@ -1,0 +1,19 @@
+﻿
+       h1
+        {
+            color: Red;
+        }
+        
+        div
+        {
+           border:4px solid Green; 
+           font-size: 18px;
+           color: Black;		  
+		   Font-Weight: Bolder;
+        }
+
+}
+body {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
