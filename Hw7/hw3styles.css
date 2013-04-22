@@ -1,0 +1,256 @@
+@import url(http://fonts.googleapis.com/css?family=font-effect-distressed-wood);
+@import url(http://fonts.googleapis.com/css?family=Overlock+SC);
+@import url(http://fonts.googleapis.com/css?family=Quintessential);
+
+body {padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	background-image:url('grey.jpg');
+	width: 600px;
+    margin: 0 auto;
+    /* center */
+    text-align: center;
+	}
+	form {
+    width: auto;
+    font-size: 17px;
+    line-height: 220%;
+    border: 2px solid #1a6f3b;
+    padding: 10px;
+    border-radius: 8px;
+  
+}
+legend {
+    font-size: 18px;
+    font-style: italic;
+    color: #000099;
+    margin-left: 20px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+fieldset {
+    border: 3px double #ccc;
+    border-radius: 8px;
+}
+table {
+    width: 380px;
+    margin: 0 auto;
+}
+.bottomLine {
+    border-top: double;
+    border-color: #665D5F;
+    height: 0px;
+    background-color: transparent;
+}
+nav {
+    margin: 2em;
+    padding-left: 100px;
+}
+/*need to change*/
+h1 {
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px #a2bf28;
+    font-size: 32px;
+    color: #3333D6;
+}
+
+
+
+a:visited {
+    text-decoration: none;
+}
+hr
+{    width: auto;
+    color: #78b20c;
+    height: 8px;
+    background-color: #00FF00;
+}
+address {
+    padding-top: 5px;
+}
+
+.profileimage
+{  
+    height: 200px;
+    float: right;
+    padding-top: 3em;
+}
+.style1a
+        {
+            color: #CC00CC;
+        }
+        .style2a
+        {
+            color: #0066FF;
+        }
+        .style3a
+        {
+            color: #FF0000;
+        }
+.styleforlink {
+    font-size: 20px;
+    color: #c30ccb;
+    text-shadow: 1px 1px 2px #6f9439;
+    margin-left: 20px;
+}
+
+    .styleforlink:hover {
+        color: red;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-shadow: 3px 3px 3px #b773ed;
+        font-weight: bolder;
+    }
+	.style1
+        {
+            text-align: left;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+        .style3
+        {
+            color: #CC0099;
+        }
+        .style4
+        {
+            color: #0000FF;
+        }
+        .style5
+        {
+            color: #009933;
+        }
+        .style6
+        {
+            font-family: "Comic Sans MS";
+        }
+        .style7
+        {
+            color: #6600FF;
+        }
+        .style8
+        {
+            text-align: center;
+            color: #336600;
+        }
+        .style9
+        {
+            color: #0033CC; margin-left: 20px;
+        }
+        .style10
+        {
+            font-size: x-large; margin-left: 20px;
+        }
+.style11
+        {
+            color: #3333FF;
+        }
+.style12
+        {
+            font-family: 'font-effect-distressed-wood', serif;
+            font-size: 40px;
+            color: #000099;
+            text-align: left;
+            text-shadow: 1px 1px 1px #76ee00;
+        }
+.stargreen
+{
+    list-style-image: url('star_green.png');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.starblue
+{
+    list-style-image: url('star_blue.png');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.arrow
+{
+    list-style-image: url('arrow_bullet.gif');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+dd
+{
+    font-family: 'Overlock SC', cursive;
+    font-size: 15px;
+    color: #371470;
+    font-weight: bold;
+    text-align: left;
+}
+
+td
+{
+    font-family: 'Overlock SC', cursive;
+    font-size: 28px;
+    color: #5C007A;
+    text-shadow: 1px 1px 1px 	#C266E0;
+    text-align: left;
+}
+
+.profileTitle
+{
+    font-family: 'font-effect-distressed-wood', serif;
+    font-size: 40px;
+    color: #1874cd;
+    text-align: left;
+    text-shadow: 1px 1px 1px #76ee00;
+}
+
+a
+{
+    color: #666666;
+    font-family: 'Overlock SC', cursive;
+    font-style: normal;
+}
+
+.welcome
+{
+    color: #0000E6;
+    font-size: 27px;
+    font-family:  'Quintessential', cursive;
+}
+
+
+
+
+	
